@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <title>|KaliLinux|</title>
- <style>
- body
- {
- background-color: black;
- color: green;
- background-image: url('backtrack-1-638.jpg');
- background-repeat: no-repeat;
- background-attachment: fixed;
- background-size: cover;
- 
- margin: 0px;
- }
- </style>
-  </head>
-  <body>
-  <div style="background-color:red;">
-  |BackTrack| 
-  Sistema Operacional
-  é um sistema operacional Linux baseado no Ubuntu. É focado em testes de seguranças e testes de penetração, muito apreciada por hackers e analistas de segurança, podendo ser iniciado diretamente pelo CD, mídia removível, máquinas virtuais ou direto no disco rígido
-    </div>
-	
-	<div style="height:400px;>
-	</div>
-	
-	<div style="background-color:rgba(0,0,0,0.5);">
+<head>
+<meta charset="UTF-8">
+<title>Comandos de Decisão</title>
+<style>
+body
+{
+background-color: green;
+color: red;
+background-image: url("arminha.gif");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 300px 100px;
+background-position: center;
+margin: 0px;
+color: yellow;
+</style>
+<script>
+var nome = prompt('Qual o seu nome');
+var lgTemTitulo = prompt(nome + ' voce já tem título de eleitor? ')
+var idade = parseInt(prompt(nome + ' qual é a sua idade ?'));
+// Comando condicional para testar se eu posso ou não votar !!
+if (idade>=18)
+{
+   document.write('Voce tem OBRIGAÇÂO DE VOTAR !!')
+}
+else if(idade>=16)
+{
+  if (lgTemTitulo == 's')
+  {
+     document.write('Voce TEM QUE VOTAR !!!');
+  }
+  else
+  {
+     document.write('Voce NÂO PODE VOTAR !!!');
+  }
+}
 
-	<p>
-	<h3>Linux Tool X</h3>
-	<img src="linuxx.jpg>
-	</p>
-	<p>
-	<h3>Linux Metasploit</h3>
-	<img src="msf_console.jpg">
-	Metasploit é um projeto de segurança de informação com o objetivo de análise de vulnerabilidades de segurança e facilitar testes de penetração e no desenvolvimento de assinaturas para sistemas de detecção de intrusos. 
-	</p>
-  </body>
+</script>
+</head>
 </html>
